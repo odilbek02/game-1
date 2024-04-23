@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+  background-color: #030303;
+}
+
+.container{
+    width: 1440px;
+    margin: auto;
+    padding: auto;
+}
+.games-bg {
+    background: linear-gradient(to right, #030303 50%, #59b9ff 50%);
+  }
+  
+  .flex-property {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav {
+    justify-content: space-between;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+  }
+  .nav-menu {
+    gap: 60px;
+    list-style-type: none;
+  }
+  .nav-menu__link {
+    font-family: Orbitron;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav-menu__link:hover {
+    color: #fac422;
+    transition: 1s;
+  }
+  .nav-btns {
+    gap: 24px;
+  }
+  .nav-btn__link {
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 16px 31px;
+  }
+  
+  .games-bg__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 209px 0 350px 0;
+  }
+  .games-bg__dark--h4 {
+    display: flex;
+    align-items: center;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    gap: 8px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    color: #57b8ff;
+  }
+  .games-bg__dark--h1 {
+    font-family: Orbitron;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    color: #fff;
+    width: 656px;
+  }
+  .games-bg__dark--span {
+    position: relative;
+  }
+  .games-bg__dark--span__img {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+  .games-bg__dark--p {
+    width: 615px;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999999;
+    padding: 43px 0 53px 0;
+  }
+  .btn {
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 21px 34px;
+    border: none;
+    color: #fff;
+  }
+  .games-bg__dark--btn1 {
+    background-color: #57b8ff;
+  }
+  .games-bg__dark--btn2 {
+    outline: none;
+    text-decoration: none;
+  }
+  
+.sponser{
+border: 1px solid;
+position: relative; 
+border-color: rgba(253, 208, 74, 1);
+height: 500px;
+background-color: rgba(253, 208, 74, 1);
+
+
+
+}
+
+.sponser-text{
+    background-color: rgba(253, 208, 74, 1);
+    position: absolute;
+    text-align: center;
+    width: 596px;
+height: 149px;
+padding-top: 130px;
+
+
+
+}
+.sponser-h1{
+    font-size: 48px;
+font-weight: 400;
+line-height: 58px;
+text-align: center;
+
+}
+.sponser-text_p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+
+}
+.text_h1-p{
+    padding-left: 400px;
+    width: 1000px;
+
+}
+.sponser-img{
+    padding-top: 44px;
+    padding-left: 60px;
+}
+.display-game{
+background-image: url(../images/display\ img.png);
+justify-content: center;
+min-height: 1072px;
+}
+
+.game-text-h1{
+    padding-top: 174px;
+    padding-left: 335px;
+    text-align: center;
+    width: 1000px;
+height: 292px;
+left: 275px;
+}
+
+.game-h1{
+font-size: 64px;
+font-weight: 400;
+line-height: 74px;
+text-align: center;
+color: #fff;
+
+}
+
+.game-p{
+font-size: 20px;
+font-weight: 400px;
+line-height: 32px;
+text-align: center;
+padding-top: 2560px;
+color:rgba(223, 223, 223, 0.8);
+
+}
+
+.text-img_h2{
+    display: flex;
+    color: rgba(87, 184, 255, 1);
+    padding-left: 250px;
+    padding-bottom: 22px;
+    
+    }
+ 
+   .game-menu{
+    width: 1320px;
+height: 456px;
+top: 355.58px;
+padding-top: 250px;
+padding-left: 130px;
+} 
+
+
+.game-bar{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+height: 212px;
+
+
+
+}
+.game-menu_bar{
+    width: 516.38px;
+height: 142px;
+top: 35.42px;
+left: 87.71px;
+padding: 0px 1.1px 0px 0px;
+background-color:  rgba(255, 255, 255, 0.15);
+border-radius: 20px;
+padding-left: 87px;
+
+}
+
+
+
+.menu-h1{
+font-size: 32px;
+font-weight: 400;
+line-height: 42px;
+color: #fff;
+
+}
+
+.menu-p{
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+padding-top: 19px;
+color: rgba(223, 223, 223, 0.8);
+
+}
+
+.media{
+    display: flex;
+    position: relative;
+    font-family: Orbitron;
+    background-color: black;
+}
+
+.text-img_h3{
+    display: flex;
+    color: rgba(87, 184, 255, 1);
+  padding-top: 124px;
+    
+}
+
+.media-text{
+    top: 200px;
+    width: 732.66px;
+    height: 474px;
+    top: 38px;
+    padding-left: 60px;
+    
+
+}
+.media-h1{
+    color: #fff;
+font-size: 64px;
+font-weight: 400;
+line-height: 74px;
+
+}
+
+.media-p{
+    padding-top: 30px;
+    color: rgba(223, 223, 223, 0.8);
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
+}
+.btn2-new{
+    padding-top: 54px;
+    position: relative;
+    padding-left: 60px; 
+}
+
+.btn-text2{
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(87, 184, 255, 1);
+}
+
+.media-mov{
+  position: absolute;
+padding-top: 86px;
+padding-left: 800px;
+}
+
+.vidio-game{
+    width: 450px;
+
+}
+
+.controls{
+    position: relative;
+    top: 0;
+}
+.menejir-menu{
+    position: absolute;
+    display:flex;
+    height: 732px;
+
+    
+}
+
+.smoth-fps{
+width: 480px;
+height: 732px;
+top: 0.39px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.multiplayer{
+width: 480px;
+height: 732px;
+left: 480px;
+
+}
+
+.open-world{
+width: 480px;
+height: 732px;
+left: 960px;
+
+}
+.game-news{
+    position: relative;
+  top: 730px;
+  background-color: #030303;
+height: 962px;
+}
+.lattest{
+    width: 1320px;
+height: 196px;
+
+}
+
+.text-img_h2{
+    padding-top: 75px;
+}
+.menu-text_h1{
+    color: #fff;
+    padding-left: 60px;
+    font-family: Orbitron;
+font-size: 64px;
+font-weight: 400;
+line-height: 74px;
+
+}
+
+.btn3-new{
+  padding-left: 1145px;
+}
+
+
+.img-game{
+    width: 1440px;
+    height: 700px;
+ 
+    
+}
+.img-game_display{
+width: 1320px;
+height: 700px;
+padding-top: 170px;
+padding-left: 60px;
+}
+
+.singn-up{
+    position: relative;
+    height: 683px;
+    top: 730px;
+    background-color: #fac422;
+    
+}
+.singn-texth1{
+  padding-top: 139px;
+padding-left: 150px;
+height: 164px;
+
+}
+
+.singnh1{
+  font-family: Orbitron;
+font-size: 72px;
+font-weight: 400;
+line-height: 82px;
+text-align: center;
+
+}
+
+.texts-singn_p{
+padding-top: 190px;
+text-align: center;
+padding-left: 150px;
+height: 28px;
+
+}
+
+.singn-p{
+  font-family: Orbitron;
+font-size: 17px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+
+}
+
+.email-button{
+  height: 80px;
+  padding-top: 200px;
+  padding-left: 385px;
+  display: flex;
+  
+}
+.email-adres{
+ width: 400px;
+height: 50px;
+}
+
+
+.btn-text3{
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(87, 184, 255, 1);
+}
